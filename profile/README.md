@@ -14,7 +14,7 @@ A small set of language-neutral specifications that describe scientific data as 
 
 Three specifications, layered from the ground up:
 
-1. **Dataset Structure Model (DSM)**: where things are. Stores, entities, files, and the identity that makes one entity out of differently named folders. Version 1.0 is released and is being exercised on more datasets before any 2.0.
+1. **Dataset Structure Model (DSM)**: where things are. Stores, entities, files, and the identity that makes one entity out of differently named folders. Version 0.1.0. It is being exercised on datasets from outside the lab, and 1.0 follows once the core stops changing across them.
 2. **Data model**: what things are. A type vocabulary and named variables bound to DSM entities. This is the next specification.
 3. **Workflow**: how things are processed. Adapter and method manifests, and run records for provenance. This follows the data model.
 
@@ -31,4 +31,4 @@ Around the specifications: language runtimes that implement them, MATLAB first a
 
 | Repository | What it holds | Status |
 |---|---|---|
-| [dataset-structure-model](https://github.com/framover/dataset-structure-model) | The DSM schema, conformance fixtures, and Python and MATLAB readers | 1.0 released |
+| [dataset-structure-model](https://github.com/framover/dataset-structure-model) | The DSM schema, conformance fixtures, and Python and MATLAB readers | 0.1.0 |
